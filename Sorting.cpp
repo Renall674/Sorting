@@ -50,7 +50,7 @@ void sort::selectionsort() {
 				min = j;
 			}
 		}
-		std::swap(numbers[i], numbers[min]);
+		swap(numbers[i], numbers[min]);
 	}
 }
 
