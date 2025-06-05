@@ -62,7 +62,7 @@ void sort::quicksort(int low = 0, int high = 9) {
 
 	for (int j = low; j < high; ++j) {
 		if (numbers[j] < pivot) {
-			std::swap(numbers[++i], numbers[j]);
+			swap(numbers[++i], numbers[j]);
 		}
 	}
 	swap(numbers[i + 1], numbers[high]);
